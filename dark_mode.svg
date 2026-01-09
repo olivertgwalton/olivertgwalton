@@ -59,7 +59,7 @@ text, tspan {white-space: pre;}
 <tspan x="300" y="350">——————</tspan>
 <tspan x="300" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">olivertgwalton@gmail.com</tspan>
 <tspan x="300" y="390" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">oliver-walton03</tspan>
-<tspan x="300" y="410" class="keyColor">Twitter</tspan>: <tspan class="valueColor">@oliverwalton03</tspan>
+<tspan x="300" y="410" class="keyColor">Telegram</tspan>: <tspan class="valueColor">@oliverwalton03</tspan>
 <tspan x="300" y="450" class="keyColor">GitHub Stats</tspan>:
 <tspan x="300" y="470">——————</tspan>
 <tspan x="300" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">63</tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">94</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">592    </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">1</tspan>
