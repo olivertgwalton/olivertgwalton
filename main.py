@@ -1,15 +1,16 @@
 # Credits to https://github.com/Andrew6rant/Andrew6rant/blob/main/today.py
 
 import datetime
-from dateutil import relativedelta
-import requests
-import os
-from xml.dom import minidom
-import time
 import hashlib
 import json
-from dotenv import load_dotenv
 import logging
+import os
+import time
+from xml.dom import minidom
+
+import requests
+from dateutil import relativedelta
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -43,6 +44,11 @@ QUERY_COUNT = {
 MAX_RETRIES = 3
 RETRY_DELAY_BASE = 2  # Base delay in seconds (will be multiplied exponentially)
 TRANSIENT_ERROR_CODES = {502, 503, 504}  # Gateway errors worth retrying
+IGNORED_REPOS = {
+    "Lunarixus/minecraft-worlds",
+    "olivertgwalton/proprietary_vendor_google",
+    "olivertgwalton/minecraft-world",
+}  # Repositories to skip during LOC counting
 MAX_COMMITS_PER_REPO = (
     5000  # Max commits to fetch per repo to avoid excessive API calls
 )
@@ -428,12 +434,11 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
     data = data[comment_size:]  # remove those lines
     for index in range(len(edges)):
         repo_hash, commit_count, *__ = data[index].split()
-        if (
-            repo_hash
-            == hashlib.sha256(
-                edges[index]["node"]["nameWithOwner"].encode("utf-8")
-            ).hexdigest()
-        ):
+        repo_full_name = edges[index]["node"]["nameWithOwner"]
+        if repo_full_name in IGNORED_REPOS:
+            logger.debug(f"Skipping ignored repository: {repo_full_name}")
+            continue
+        if repo_hash == hashlib.sha256(repo_full_name.encode("utf-8")).hexdigest():
             try:
                 if (
                     int(commit_count)
@@ -585,7 +590,7 @@ def svg_overwrite(
     # Contact
     tspan[59].firstChild.data = escape_xml(contact.get("email", ""))
     tspan[61].firstChild.data = escape_xml(contact.get("linkedin", ""))
-    tspan[63].firstChild.data = escape_xml(contact.get("twitter", ""))
+    tspan[63].firstChild.data = escape_xml(contact.get("telegram", ""))
 
     # GitHub Stats (dynamic data)
     tspan[67].firstChild.data = repo_data

@@ -1,6 +1,6 @@
-<a href="https://github.com/AyushSehrawat/AyushSehrawat">
+<a href="https://github.com/olivertgwalton/olivertgwalton">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AyushSehrawat/AyushSehrawat/main/dark_mode.svg">
-    <img alt="Andrew Grant's GitHub Profile README" src="https://raw.githubusercontent.com/AyushSehrawat/AyushSehrawat/main/light_mode.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/olivertgwalton/olivertgwalton/main/dark_mode.svg">
+    <img alt="Oliver Walton's GitHub Profile README" src="https://raw.githubusercontent.com/olivertgwalton/olivertgwalton/main/light_mode.svg">
   </picture>
 </a>

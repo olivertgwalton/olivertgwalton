@@ -1,27 +1,27 @@
 {
-    "profile": {
-        "username": "ayush",
-        "hostname": "sehrawat"
-    },
-    "system": {
-        "os": "CachyOS",
-        "uptime": "19 years, 11 months, 10 days",
-        "host": "India",
-        "kernel": "Delhi Technological University",
-        "ide": "VSCode, JetBrains"
-    },
-    "languages": {
-        "programming": "Python, JS, TS, Go, C, SQL",
-        "computer": "HTML, CSS, JSON, XML, YAML, Markdown, Bash",
-        "real": "English, Hindi"
-    },
-    "hobbies": {
-        "software": "Messing With Servers",
-        "real": "Reading Novels and Manga, Sleeping"
-    },
-    "contact": {
-        "email": "mini@ayush.gg",
-        "linkedin": "AyushSehrawat",
-        "twitter": "@mini5183"
-    }
+  "profile": {
+    "username": "oliver",
+    "hostname": "walton"
+  },
+  "system": {
+    "os": "Arch Linux",
+    "uptime": "22 years, 0 months, 12 days",
+    "host": "United Kingdom",
+    "kernel": "Coventry University",
+    "ide": "VSCode, Zed"
+  },
+  "languages": {
+    "programming": "Python, JS, TS, C",
+    "computer": "HTML, CSS, JSON, XML, YAML, Markdown, Bash",
+    "real": "English"
+  },
+  "hobbies": {
+    "software": "Embedded Systems, Web Development, Homelabbing",
+    "real": "Formula 1, Movies, Family"
+  },
+  "contact": {
+    "email": "olivertgwalton@gmail.com",
+    "linkedin": "oliver-walton03",
+    "telegram": "@oliverwalton03"
+  }
 }
