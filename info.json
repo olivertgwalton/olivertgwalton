@@ -4,11 +4,11 @@
     "hostname": "walton"
   },
   "system": {
-    "os": "Arch Linux",
+    "os": "Fedora",
     "uptime": "22 years, 0 months, 12 days",
     "host": "United Kingdom",
-    "kernel": "Coventry University",
-    "ide": "VSCode, Zed"
+    "kernel": "Version 1",
+    "ide": "Zed, VSCode"
   },
   "languages": {
     "programming": "Python, JS, TS, C",
