@@ -46,7 +46,7 @@ text, tspan {white-space: pre;}
 <tspan x="300" y="30">oliver@walton</tspan>
 <tspan x="300" y="50">——————</tspan>
 <tspan x="300" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">Fedora</tspan>
-<tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">22 years, 8 months, 4 days</tspan>
+<tspan x="300" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">22 years, 8 months, 5 days</tspan>
 <tspan x="300" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">United Kingdom</tspan>
 <tspan x="300" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">Version 1</tspan>
 <tspan x="300" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">Zed, VSCode</tspan>
@@ -62,8 +62,8 @@ text, tspan {white-space: pre;}
 <tspan x="300" y="410" class="keyColor">Telegram</tspan>: <tspan class="valueColor">@oliverwalton03</tspan>
 <tspan x="300" y="450" class="keyColor">GitHub Stats</tspan>:
 <tspan x="300" y="470">——————</tspan>
-<tspan x="300" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">78</tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">110</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">1,799  </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">13</tspan>
-<tspan x="300" y="510" class="keyColor">Followers</tspan>: <tspan class="valueColor">14  </tspan>| <tspan class="keyColor">Lines of Code</tspan>: <tspan class="valueColor">2,768,027</tspan> (<tspan class="addColor">3,125,652++</tspan>, <tspan class="delColor">357,625--</tspan>)
+<tspan x="300" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">78</tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">110</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">1,800  </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">13</tspan>
+<tspan x="300" y="510" class="keyColor">Followers</tspan>: <tspan class="valueColor">14  </tspan>| <tspan class="keyColor">Lines of Code</tspan>: <tspan class="valueColor">2,768,028</tspan> (<tspan class="addColor">3,125,654++</tspan>, <tspan class="delColor">357,626--</tspan>)
 </text>
 
 </svg>
